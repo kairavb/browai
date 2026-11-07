@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "BROW AI",
+    "slug": "brow-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "browai",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#070B12",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070B12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.browai.app"
+    },
+    "android": {
+      "package": "org.browai.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#070B12"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#070B12"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
