@@ -43,6 +43,17 @@
     ],
     "experiments": {
       "typedRoutes": false
-    }
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "c43f4ae5-f9de-42e3-8a53-97c5c7488cff"
+      }
+    },
+    "owner": "kairavbhatia"
   }
 }
